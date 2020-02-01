@@ -1,0 +1,12 @@
+.paginator{
+	display: flex;
+	list-style: none;
+}
+
+.paginator > li:not(:last-child){
+	padding-right: 10px;
+}
+
+.selectPage{
+	font-weight: bold;
+}

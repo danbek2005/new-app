@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.main-nav{
+	position: absolute;
+	width: 20vw;
+	background: green;
+	height: 100vh;
+	left: 0;
+}
+.content{
+	width: 75vw;
+	position: absolute;
+	right: 0;
+}
+
+.content{
+	padding: 50px 10px;
+}
+
+.item{
+	border: 1px solid silver;
+	padding: 10px;
+}
+
+.item:not(:last-child){
+	margin-bottom: 20px;
+}
+
+header{
+	float: right;
+	width: 80%;
+	background: orange;
+	height: 15vh;
+
+}
+
+.login{
+	float: right;
+	padding: 10px; 
+}
